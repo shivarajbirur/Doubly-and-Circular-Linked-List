@@ -20,12 +20,11 @@ Welcome to the **Java Linked List Repository**! 🎯 This repository contains im
 
 ## 📂 Project Structure
 
-📁 `src/`
+📁 `LinkedList/`
 
 - 📜 `SinglyLinkedList.java` ➡️ Implements a singly linked list
 - 📜 `DoublyLinkedList.java` ↔️ Implements a doubly linked list
 - 📜 `CircularLinkedList.java` 🔄 Implements a circular linked list
-- 📜 `Main.java` 🏁 Runs example operations on all lists
 
 ---
 
@@ -43,12 +42,34 @@ Make sure you have **Java 8+** installed on your system. 🖥️☕
    ```
 2. Navigate to the project folder 📂
    ```bash
-   cd Doubly-and-Circular-Linked-List/src
+   cd Doubly-and-Circular-Linked-List/LinkedList
    ```
 3. Compile and run the code 🏎️
    ```bash
    javac Main.java && java Main
    ```
+
+---
+
+## 📜 Linked List Diagrams
+
+### 🟢 Singly Linked List (SLL)
+
+```
+[Head] -> [Node1] -> [Node2] -> [Node3] -> NULL
+```
+
+### 🟣 Doubly Linked List (DLL)
+
+```
+NULL <- [Head] <-> [Node1] <-> [Node2] <-> [Node3] -> NULL
+```
+
+### 🔵 Circular Linked List (CLL)
+
+```
+[Head] -> [Node1] -> [Node2] -> [Node3] -> [Head] (back to start)
+```
 
 ---
 
